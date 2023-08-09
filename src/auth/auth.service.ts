@@ -18,7 +18,6 @@ export class AuthService {
       email,
       password: passwordHas,
     });
-    console.log(user)
     return {
       message: 'User created successfully',
     };
